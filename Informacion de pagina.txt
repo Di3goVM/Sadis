@@ -1,0 +1,9 @@
+colores:
+464646
+757575
+logo:
+7d43fa 100%
+ffc9e9 84%
+fuente:Poppins
+434343
+999999
