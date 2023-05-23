@@ -9,34 +9,153 @@
 </head>
 <body>
 	<div class="viewport">
-		<nav class="navegacion" style="width: 70px;">
+		<nav class="navegacion">
 			<div class="logo">
 				<img src="./img/universidad.png">
 				<span>Sadis</span>
 			</div>
-			<ul class="secciones">
-				<li class="icons"><ion-icon name="ribbon-outline"></ion-icon><a href="" class="seccion">Inscripcion a finales</a></li>
-				<li class="icons"><ion-icon name="school-outline"></ion-icon><a href="" class="seccion">Finales</a></li>
-				<li class="icons"><ion-icon name="library-outline"></ion-icon><a href="" class="seccion">Cursadas</a></li>
-			</ul>
-			<ul class="secciones exit">
-				<li class="icons"><ion-icon name="exit-outline"></ion-icon><a href="index.html" class="seccion">Salir</a></li>
+			<ul class="secciones containerSecciones">
+				<li class="icons"><a href="" class="seccion"><ion-icon name="ribbon-outline"></ion-icon>Inscripcion a finales</a></li>
+				<li class="icons"><a href="" class="seccion"><ion-icon name="school-outline"></ion-icon>Finales</a></li>
+				<li class="icons"><a href="" class="seccion"><ion-icon name="library-outline"></ion-icon>Cursadas</a></li>
+				<li class="icons"><a href="index.html" class="seccion"><ion-icon name="exit-outline"></ion-icon>Salir</a></li>
 			</ul>
 		</nav>
-		<div class="containerCarrera">
-			<div class="carrera">
-				<div class="imgIcon">
-					<img src="./img/carrera.png" class="fotoCarrera">
+		<section class="principal">
+			<div class="titulo">
+				<div class="containerCarrera">
+				<div class="reloj">
+					<ion-icon name="alarm-outline" class="barraIconos"></ion-icon>
+					<span class="tiempo">Calendario</span>
 				</div>
-				<span>Analista de Sistemas</span>
+				<div class="carrera">
+					<ion-icon name="bookmark-outline" class="barraIconos"></ion-icon>
+					<span>Analista de Sistemas</span>
+					<div class="elegirCarrera" style="height: 0px;">
+						<span>Analista de Sistemas</span>
+					</div>
+				</div>
+				<div class="usuario">
+					<ion-icon name="person-outline" class="barraIconos"></ion-icon>
+					<span>Datos de Usuario</span>
+				</div>
 			</div>
 			<div class="perfil">
 				<div class="imgIcon">
 					<img src="./img/perfil.png" class="fotoPerfil">
 				</div>
-				<span>Bartholomew J. Simpson</span>
+				<div>
+				<h4>Bart simpson</h4>
+				<span>Tecnico Superior en analisis de Sistemas</span>
+				</div>
 			</div>
 		</div>
+		<div class="subTitulo">
+			<h4>Mis Materias</h4>
+		</div>
+		<div class="materias_inscriptas">
+			<ul class="mis_materias">
+				<li class="materia activarPracticas"><img src="./img/contrato.png" id="practicas"><span>Practica<br>profesionalizantes II</span></li>
+				<li class="materia activarIngles"><img src="./img/eng.png" id="ingles"><span>Ingles II</span></li>
+				<li class="materia activarIngenieria"><img src="./img/desarrollador-de-software.png" id="ingenieria"><span>Ingenieria de Software I</span></li>
+			</ul>
+		</div>
+		<div class="subTitulo">
+			<h4>Mis Horarios</h4>
+		</div>
+		<div class="horarios">
+			<table class="ficha_horario">
+				<tr>
+					<th colspan="2">HORA</th>
+					<th>LUNES</th>
+					<th>MARTES</th>
+					<th>MIERCOLES</th>
+					<th>JUEVES</th>
+					<th>VIERNES</th>
+				</tr>
+				<tr>
+					<td class="orden_hora">1°</td>
+					<td class="celda hora">17:40 pm</td>
+					<td class="celda"></td>
+					<td class="celda">
+						<div class="practicas">
+							<h4>practicas profesinalizantes</h4>
+							<span>Roldan-Ferreira</span>
+						</div>
+					</td>
+					<td class="celda"></td>
+					<td class="celda"></td>
+					<td class="celda"></td>
+				</tr>
+				<tr>
+					<td class="orden_hora">2°</td>
+					<td class="celda hora">18:30 pm</td>
+					<td class="celda">
+						<div class="ingles">
+							<h4>Ingles</h4>
+							<span>Zozula Angelica</span>
+						</div>
+					</td>
+					<td class="celda">
+						<div class="practicas">
+							<h4>practicas profesinalizantes</h4>
+							<span>Roldan-Ferreira</span>
+						</div>
+					</td>
+					<td class="celda"></td>
+					<td class="celda"></td>
+					<td class="celda"></td>
+				</tr>
+				<tr>
+					<td class="orden_hora">3°</td>
+					<td class="celda hora">19:25 pm</td>
+					<td class="celda">
+						<div class="ingles">
+							<h4>Ingles</h4>
+							<span>Zozula Angelica</span>
+						</div>
+					</td>
+					<td class="celda">
+						<div class="practicas">
+							<h4>practicas profesinalizantes</h4>
+							<span>Roldan-Ferreira</span>
+						</div>
+					</td>
+					<td class="celda"></td>
+					<td class="celda"></td>
+					<td class="celda"></td>
+				</tr>
+				<tr>
+					<td class="orden_hora">4°</td>
+					<td class="celda hora">20:15 pm</td>
+					<td class="celda"></td>
+					<td class="celda"></td>
+					<td class="celda">
+						<div class="ingenieria">
+							<h4>Ingenieria de Software</h4>
+							<span>Giamo</span>
+						</div>
+					</td>
+					<td class="celda"></td>
+					<td class="celda"></td>
+				</tr>
+				<tr>
+					<td class="orden_hora">5°</td>
+					<td class="celda hora">21:20 pm</td>
+					<td class="celda"></td>
+					<td class="celda"></td>
+					<td class="celda">
+						<div class="ingenieria">
+							<h4>Ingenieria de Software</h4>
+							<span>Giamo</span>
+						</div>
+					</td>
+					<td class="celda"></td>
+					<td class="celda"></td>
+				</tr>
+			</table>
+		</div>
+		</section>
 	</div>
 	<script type="text/javascript" src="main.js"></script>
 	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
