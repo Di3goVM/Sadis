@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Inscripcion a finales</title>
+	<link rel="stylesheet" type="text/css" href="./style/main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="viewport">
+		<section class="containerNav">
+			<nav class="navegacion">
+				<div class="logo">
+					<img src="./img/universidad.png">
+					<span>Sadis</span>
+				</div>
+				<ul class="secciones containerSecciones">
+					<li class="icons"><a href="inscripcion_a_finales.html" class="seccion"><ion-icon name="ribbon-outline"></ion-icon>Inscripcion a finales</a></li>
+					<li class="icons"><a href="finales.html" class="seccion"><ion-icon name="school-outline"></ion-icon>Finales</a></li>
+					<li class="icons"><a href="cursadas.html" class="seccion"><ion-icon name="library-outline"></ion-icon>Cursadas</a></li>
+					<li class="icons"><a href="index.html" class="seccion"><ion-icon name="exit-outline"></ion-icon>Salir</a></li>
+				</ul>
+			</nav>
+		</section>
+		<section class="containerBody">
+			<div class="body">
+			<div class="titulo">
+				<div class="containerCarrera">
+						<div class="reloj">
+							<ion-icon name="alarm-outline" class="barraIconos"></ion-icon>
+							<span class="tiempo">Calendario</span>
+						</div>
+						<div class="carrera">
+							<ion-icon name="bookmark-outline" class="barraIconos"></ion-icon>
+							<span>Analista de Sistemas</span>
+							<div class="elegirCarrera" style="height: 0px;">
+							<span>Analista de Sistemas</span>
+							</div>
+						</div>
+						<div class="usuario">
+							<ion-icon name="person-outline" class="barraIconos"></ion-icon>
+							<span>Datos de Usuario</span>
+						</div>
+				</div>
+				<div class="perfil">
+					<div class="imgIcon">
+						<img src="./img/perfil.png" class="fotoPerfil">
+					</div>
+					<div>
+					<h4>Bart simpson</h4>
+					<span>Tecnico Superior en analisis de Sistemas</span>
+					</div>
+				</div>
+			</div>
+			<div class="subTitulo">
+				<h4>Mis examenes finales</h4>
+				<button id="quitar" class="btn_borrar  desaparecerBtn">Abandonar final</button>
+				<button class="btn_iniciarEliminacion">Editar mis examenes</button>
+			</div>
+			<div class="materias_inscriptas">
+				<ul class="mis_materias">
+					<li class="materia activarPracticas">
+						<div><img src="./img/contrato.png" id="practicas"></div>
+						<span>Practica profesionalizantes II</span>
+						<span>2° A</span>
+						<span>Roldan-Ferreira</span>
+					</li>
+					<li class="materia activarIngles">
+						<div><img src="./img/eng.png" id="ingles"></div>
+						<span>Ingles II</span>
+						<span>2° A</span>
+						<span>Angelica Zozula</span>
+					</li>
+					<li class="materia activarIngenieria">
+						<div><img src="./img/desarrollador-de-software.png" id="ingenieria"></div>
+						<span>Ingenieria de Software I</span>
+						<span>2° A</span>
+						<span>Giaimo</span>
+					</li>
+				</ul>
+			</div>
+			<div class="subTitulo">
+				<h4>Anotarse a un exmaen final</h4>
+				<button id="agregar" class="btn_agregar desaparecerBtn">Anotarme</button>
+				<button class="btn_iniciarAgregar">Comenzar a anotarme</button>
+			</div>
+			<div class="horarios">
+				<table class="fichaMatricula">
+					<tr>
+						<th>AÑO</th>
+						<th>CURSO</th>
+						<th>MATERIA</th>
+						<th>PROFESOR</th>
+						<th>HORARIOS</th>
+						<th>FECHA</th>
+					</tr>
+					<tr class="fila">
+						<td>2°</td>
+						<td>A</td>
+						<td>Sistemas Operativos</td>
+						<td>Pacini(sup.Ferreira)</td>
+						<td>18:30</td>
+						<td>11/02/2023</td>
+					</tr>
+					<tr class="fila">
+						<td>2°</td>
+						<td>A</td>
+						<td>Analisis Matematico II</td>
+						<td>Cascelli</td>
+						<td>19:30</td>
+						<td>12/02/2023</td>
+					</tr>
+					<tr class="fila">
+						<td>2°</td>
+						<td>A</td>
+						<td>Base de datos</td>
+						<td>Pellegrini</td>
+						<td>17:45</td>
+						<td>14/02/2023</td>
+					</tr>
+					<tr class="fila">
+						<td>2°</td>
+						<td>A</td>
+						<td>Estadistica</td>
+						<td>Villar</td>
+						<td>21:15</td>
+						<td>14/02/2023</td>
+					</tr>
+					<tr class="fila">
+						<td>2°</td>
+						<td>A</td>
+						<td>Algoritmos y Estructura de Datos</td>
+						<td>Giaimo</td>
+						<td>19:30</td>
+						<td>15/02/2023</td>
+					</tr>
+				</table>
+			</div>
+			</div>
+		</section>
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+	<script src= "cursadas.js"></script>
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

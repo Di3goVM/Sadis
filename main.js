@@ -72,3 +72,9 @@ btnCarrera.onclick = ()=>{
 		carrera.style.height = '0px';
 	}
 };
+
+/*volver a menu principal*/
+
+const menuPrincipal = document.querySelector('.logo');
+
+menuPrincipal.onclick = ()=> window.location = "main.html";
