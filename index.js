@@ -3,25 +3,25 @@
 const ingresar = document.getElementById("ingresar");
 
 
-ingresar.onclick = function(){
+ingresar.onclick = ()=>{
 	let usuario = document.getElementById("usuario").value;
 	let password = document.getElementById("password").value;
 
-	if (usuario == "bart simpson" && password == "el barto"){
+	if (usuario == "Bart Simpson" && password == "el_barto123"){
 		window.location = "main.html";		
 	}
 	else{
-		alert("usuario inexistente");
+		alert("usuario inexistente(por favor recuerda respetar las mayusculas y minusculas)");
 	}
 };
 
 //carrusel
 
-var slideIndex = 0;
-var slides = document.getElementsByClassName("deslizar")[0].getElementsByTagName("img");
+let slideIndex = 0;
+let slides = document.getElementsByClassName("deslizar")[0].getElementsByTagName("img");
 
 function showSlide() {
-  for (var i = 0; i < slides.length; i++) {
+  for (let i = 0; i < slides.length; i++) {
   	slides[i].style.display = "none";
     slides[i].classList.remove("activo");
   }
