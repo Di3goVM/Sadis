@@ -291,6 +291,16 @@ body{
 	border: 1px solid #D9E5FC;
 }
 
+.btn_borrar{
+	border-color: #FF5F36;
+	background: #FFE4DD;
+}
+
+.btn_agregar{
+	border-color: #7AE329;
+	background: #EDFFDE;
+}
+
 .desaparecerBtn{
 	display: none;
 }
@@ -349,6 +359,10 @@ body{
 	font-weight: bolder;
 	color: #576F99;
 	margin-left: 1rem;
+}
+
+.quitar{
+	box-shadow: 0.5px 0.5px 10px 1px #D1D8E4;
 }
 
 #practicas{
@@ -473,6 +487,7 @@ body{
 .fila{
 	background: #F6F9FF;
 	border-radius: 3em;
+	cursor: pointer;
 }
 
 .seleccionada{
